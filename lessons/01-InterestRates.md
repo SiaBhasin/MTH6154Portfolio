@@ -10,8 +10,8 @@ An interest rate tells us how much money is earned from saving or investing, or 
 Compound interest allows an investment to grow over time, as interest is calculated on both the initial amount known as the principle and interest accumulated in previous periods. The frequency of compounding affects the final value of the investment, the investment grows at an increasing rate over time, assuming a constant positive interest rate.
 
 For example, suppose you invest £1,000 at 5% interest compounded annually.
-`- After the first year, you have £1,050.
-`- In the second year, interest is calculated on £1,050 rather than the original £1,000.
+'- After the first year, you have £1,050.
+'- In the second year, interest is calculated on £1,050 rather than the original £1,000.
 This means the balance grows faster over time because previously earned interest also earns interest.
 
 The accumulated value of an investment can be calculated using:

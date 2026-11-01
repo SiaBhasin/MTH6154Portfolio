@@ -6,7 +6,11 @@
 
 ### 1.1 Interest rates and compounding
 
-### 1.2 Nominal 
+### Nominal, effective and equivalent interest rates
+
+### 1.2 Variable interest rates and the yield curve 
+
+### 1.3 Inflation and real interest rates 
 
 ## My example
 

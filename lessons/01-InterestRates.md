@@ -28,10 +28,22 @@ $$A = Pe^{rt}$$
 where $e$ is Euler's number (approximately 2.71828), while $P$, $r$ and $t$ have the same meanings as before. For a fixed positive nominal interest rate, continuous compounding gives the highest accumulated value in the limit, compared with compounding at a finite number of intervals.
 
 ### 1.2 Nominal, effective and equivalent interest rates
-The main distinction between nominal and effective interest rates is how compounding is accounted for.
-The nominal rate is the interest rate a bank advertises. However, it doesn't always tell you exactly how much interest you'll earn in a year.
-The effective rate takes compounding into account, so it gives a better picture of your actual annual return.
+A nominal interest rate is the annual rate advertised by a bank or lender. However, it does not fully account for how often interest is added. The effective rate takes compounding into account, giving a more accurate measure of the actual return earned over one year. This makes effective rates particularly useful when comparing investments with different compounding frequencies.
 
+The effective annual interest rate is calculated using:
+
+$$r_{\text{eff}} = \left(1+\frac{r}{m}\right)^m - 1
+
+where $r$ is the nominal interest rate and $m$ is the number of compounding periods per year.
+
+For continuous compounding:
+
+$$r_{\text{eff}} = e^{r}-1 \ \text{(continuous)}$$
+
+Equivalent interest rates are rates quoted using different compounding frequencies that produce the same effective annual return.
+Two nominal rates r1 and r2, with compounding frequencies m1 and m2, are equivalent when:
+
+$$\left(1+\frac{r_1}{m_1}\right)^{m_1} = \left(1+\frac{r_2}{m_2}\right)^{m_2}.$$
 
 ### 1.3 Variable interest rates and the yield curve 
 

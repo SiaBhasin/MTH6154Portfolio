@@ -19,13 +19,13 @@ The accumulated value of an investment can be calculated using:
 
 $$A = P\left(1+\frac{r}{m}\right)^{mt}$$
 
-where \(P\) is the principal, \(r\) is the annual interest rate, \(m\) is the number of compounding periods per year, and \(t\) is the time in years.
+where $P$ is the principal, $r$ is the annual interest rate, $m$ is the number of compounding periods per year, and $t$ is the time in years.
 
 Continuous compounding takes this a step further by considering what happens when interest is added increasingly frequently. As the number of compounding periods approaches infinity, the accumulated value approaches a limit given by:
 
 $$A = Pe^{rt}$$
 
-where \(e\) is Euler's number (approximately 2.71828), while \(P\), \(r\) and \(t\) have the same meanings as before. For a fixed positive nominal interest rate, continuous compounding gives the highest accumulated value in the limit, compared with compounding at a finite number of intervals.
+where $e$ is Euler's number (approximately 2.71828), while $P$, $r$ and $t$ have the same meanings as before. For a fixed positive nominal interest rate, continuous compounding gives the highest accumulated value in the limit, compared with compounding at a finite number of intervals.
 
 ### 1.2 Nominal, effective and equivalent interest rates
 The main distinction between nominal and effective interest rates is how compounding is accounted for.

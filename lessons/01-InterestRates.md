@@ -38,7 +38,7 @@ where $r$ is the nominal interest rate and $m$ is the number of compounding peri
 
 For continuous compounding:
 
-$$r_{\text{eff}} = e^{r}-1 \ \text{(continuous)}$$
+$$r_{\text{eff}} = e^{r}-1 
 
 Equivalent interest rates are rates quoted using different compounding frequencies that produce the same effective annual return.
 Two nominal rates r1 and r2, with compounding frequencies m1 and m2, are equivalent when:

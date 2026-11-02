@@ -43,7 +43,7 @@ $$r_{\text{eff}} = e^{r}-1 \ \text{(continuous)}$$
 Equivalent interest rates are rates quoted using different compounding frequencies that produce the same effective annual return.
 Two nominal rates r1 and r2, with compounding frequencies m1 and m2, are equivalent when:
 
-$$\left(1+\frac{r_1}{m_1}\right)^{m_1} = \left(1+\frac{r_2}{m_2}\right)^{m_2}.$$
+$$\left(1+\frac{r_1}{m_1}\right)^{m_1} = \left(1+\frac{r_2}{m_2}\right)^{m_2}$$
 
 ### 1.3 Variable interest rates and the yield curve 
 

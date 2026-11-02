@@ -32,13 +32,13 @@ A nominal interest rate is the annual rate advertised by a bank or lender. Howev
 
 The effective annual interest rate is calculated using:
 
-$$r_{\text{eff}} = \left(1+\frac{r}{m}\right)^m - 1
+$$r_{\text{eff}} = \left(1+\frac{r}{m}\right)^m - 1$$
 
 where $r$ is the nominal interest rate and $m$ is the number of compounding periods per year.
 
 For continuous compounding:
 
-$$r_{\text{eff}} = e^{r}-1 
+$$r_{\text{eff}} = e^{r}-1$$
 
 Equivalent interest rates are rates quoted using different compounding frequencies that produce the same effective annual return.
 Two nominal rates r1 and r2, with compounding frequencies m1 and m2, are equivalent when:

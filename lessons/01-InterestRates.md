@@ -41,7 +41,7 @@ For continuous compounding:
 $$r_{\text{eff}} = e^{r}-1$$
 
 Equivalent interest rates are rates quoted using different compounding frequencies that produce the same effective annual return.
-Two nominal rates r1 and r2, with compounding frequencies m1 and m2, are equivalent when:
+Two nominal rates r1 and r2, with compounding frequencies {m_1} and {m_2}, are equivalent when:
 
 $$\left(1+\frac{r_1}{m_1}\right)^{m_1} = \left(1+\frac{r_2}{m_2}\right)^{m_2}$$
 
@@ -51,9 +51,46 @@ $$\left(1+\frac{r_1}{m_1}\right)^{m_1} = \left(1+\frac{r_2}{m_2}\right)^{m_2}$$
 
 ## My example
 
-A situation you made up (your own numbers, not the ones in the lecture
-notes), worked step by step.
+A university student plans to move out after finishing their degree of three years and wants to invest their current savings to help cover the rent. They are considering two savings accounts:
+|                        | Account A | Account B |
+|------------------------|-----------|-----------|
+| Initial investment     | £5,000    | £5,000    |
+| Nominal annual interest rate | 4.6% | 4.5%    |
+| Compounding frequency  | Quarterly | Continuously |
+| Investment period      | 4 years   |
 
+The student has a savings target of £6,500, and annual inflation is assumed to remain constant at 2.5%.
+
+Questions to investigate:
+
+(a) Calculate the accumulated value of each investment after three years.
+Using the compound interest formula:
+
+$$A=P\left(1+\frac{r}{m}\right)^{mt}$$
+
+Where:
+- $P=5000$ (initial investment)
+- $r=0.046$ (nominal annual interest rate)
+- $m=4$ (quarterly compounding)
+- $t=3$ (investment period in years)
+
+Substituting these values into the formula:
+
+$$A=5000\left(1+\frac{0.046}{4}\right)^{4\times3}$$
+
+$$A=5000(1.0115)^{12}$$
+
+$$A=\text{£...}$$
+
+(b) Calculate the effective annual interest rate for both accounts and determine which offers the higher return.
+
+(c) Calculate the nominal annual interest rate Account A would need to offer to be equivalent to Account B.
+
+(d) Determine how long it would take to reach the savings target of £6,500 using each account.
+
+(e) Calculate the real effective annual interest rate for both accounts after accounting for inflation.
+
+(f) Based on the calculations, which account should the student choose and why?
 ## Solved exercises
 
 ### Exercise 1.x (from Exercise Sheet 1)
